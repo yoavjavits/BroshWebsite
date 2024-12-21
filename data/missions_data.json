@@ -1,0 +1,26 @@
+[
+  {
+    "mission_id": 1,
+    "mission_date": "19.12.2024",
+    "mission_name": "מדת למדינה",
+    "is_done": false
+  },
+  {
+    "mission_id": 2,
+    "mission_date": "25.12.2024",
+    "mission_name": "למה דווקא ישראל",
+    "is_done": false
+  },
+  {
+    "mission_id": 3,
+    "mission_date": "26.12.2024",
+    "mission_name": "השלמת משפט בהד 1",
+    "is_done": false
+  },
+  {
+    "mission_id": 4,
+    "mission_date": "27.12.2024",
+    "mission_name": "סתם משימה",
+    "is_done": false
+  }
+]

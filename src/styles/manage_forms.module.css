@@ -1,0 +1,48 @@
+.th {
+    padding: 0;
+}
+
+.control {
+    width: 100%;
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+
+    @mixin hover {
+        background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    }
+}
+
+.icon {
+    width: rem(21px);
+    height: rem(21px);
+    border-radius: rem(21px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+.scrollAreaWrapper {
+    width: 80%; /* Adjust width as needed */
+    max-width: 1000px; /* Maximum width */
+    height: auto; /* Adjust height as needed */
+    max-height: 700px; /* Maximum height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white; /* Optional: Add background color */
+    padding: 20px; /* Optional: Add padding */
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}

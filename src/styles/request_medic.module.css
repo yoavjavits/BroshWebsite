@@ -1,0 +1,26 @@
+/* request_course.module.css */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    min-height: 100vh; /* Full viewport height to center vertically */
+    padding: 10px; /* Optional padding for better spacing */
+    width: auto; /* Full viewport width */
+    height: auto; /* Full viewport height */
+}
+
+.formWrapper {
+    background-color: white; /* Optional: background color for the form */
+    padding: 40px; /* Padding inside the form */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: box shadow for depth */
+    max-width: 600px; /* Constrain the maximum width of the form */
+    width: 100%; /* Full width up to the max-width */
+    height: auto; /* Full height */
+}
+
+.title {
+    font-family: 'Greycliff CF', var(--mantine-font-family);
+    font-weight: 900;
+    text-align: center;
+}

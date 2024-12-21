@@ -1,0 +1,7 @@
+.MissionData {
+    width: 40%;
+}
+
+.missionName, .isDone {
+    width: 30%;
+}
