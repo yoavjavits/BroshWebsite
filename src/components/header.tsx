@@ -14,6 +14,11 @@ const Logo = () => {
     );
 };
 
+type linkType = {
+    link: string;
+    label: string;
+}
+
 const links = [
     { link: '/manage_missions', label: 'משימות' },
     { link: '/request_medic', label: 'בקשת חובש' },
@@ -41,7 +46,7 @@ export default function HeaderSimple() {
         }
     }, [router.pathname]);
 
-    const handleNavigation = (link) => {
+    const handleNavigation = (link: linkType) => {
         setActive(link.link);
         setPageName(link.label);
         router.push(link.link); // Navigate to the new page
