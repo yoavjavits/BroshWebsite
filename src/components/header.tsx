@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Container, Group } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
 import { useRouter } from 'next/router'; // Assuming you're using Next.js
 
 import classes from '@/styles/header.module.css';
@@ -23,10 +22,13 @@ const links = [
 ];
 
 export default function HeaderSimple() {
-    const [opened, { toggle }] = useDisclosure(false);
     const [active, setActive] = useState('');
     const [pageName, setPageName] = useState(''); // Track the current page
     const router = useRouter(); // For navigation in Next.js
+
+    if (pageName == '') {
+        console.log('pageName is empty');
+    }
 
     useEffect(() => {
         // Set active link and pageName based on the current route

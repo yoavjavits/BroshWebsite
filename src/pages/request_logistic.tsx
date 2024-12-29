@@ -8,7 +8,7 @@ export default function RequestLogistic() {
     const [request_message, setRequestMessage] = useState('');
     const theme = useMantineTheme();
 
-    const handleSubmit = async (event: React.FormEvent) => {
+    const handleSubmit = async () => {
         // event.preventDefault(); // Prevent the form's default refresh behavior
 
         const key = window.localStorage.getItem('key');
