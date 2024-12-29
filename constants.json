@@ -1,4 +1,4 @@
 {
-  "server": "http://127.0.0.1:5000",
+  "server": "https://brosh-backend.vercel.app",
   "is_server_connected": false
 }
